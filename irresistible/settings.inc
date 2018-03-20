@@ -5,6 +5,9 @@
  * Purpose: defines general server settings
  */
 
+/* ** Definitions ** */
+#define DEBUG_MODE					// commenting will utilize production credentials
+
 /* ** MySQL Settings ** */
 #if !defined DEBUG_MODE
 	// PRODUCTION
