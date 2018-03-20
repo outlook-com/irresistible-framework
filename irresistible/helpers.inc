@@ -6,7 +6,7 @@
  */
 
 /* ** Includes ** */
-#include                                    < YSI\y_iterate >
+#include                                    < YSI\y_va >
 
 /* ** Macros ** */
 #define function%1(%2)                      forward%1(%2); public%1(%2)
