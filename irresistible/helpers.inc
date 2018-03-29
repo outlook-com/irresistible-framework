@@ -20,6 +20,7 @@
 #define strmatch(%1,%2)                     (!strcmp(%1,%2,true))
 #define Beep(%1)                            PlayerPlaySound(%1, 1137, 0.0, 0.0, 0.0)
 #define erase(%0)                           (%0[0]='\0')
+#define SetObjectInvisible(%0)              (SetDynamicObjectMaterialText(%0, 0, " ", 140, "Arial", 64, 1, -32256, 0, 1))
 
 /* ** Variables ** */
 stock szSmallString 						[ 32 ];
